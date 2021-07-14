@@ -28,6 +28,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="../EjemplosConDropdowns/UpdatePanel.aspx">Update Panel</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../EjemplosEmail/EnvioEmail.aspx">Envío Email</a>
+                    </li>
                 </ul>
             </div>
         </div>

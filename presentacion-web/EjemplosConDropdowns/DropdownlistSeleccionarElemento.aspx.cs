@@ -33,12 +33,12 @@ namespace presentacion_web.Dropdowns
         {
 			string id = txtIdTipo.Text;
 
-			//opcion 1
-			//ddlTipoPreseleccionado.SelectedIndex = -1;
-			//ddlTipoPreseleccionado.Items.FindByValue(id).Selected = true;
+            //opcion 1
+            //ddlTipoPreseleccionado.SelectedIndex = -1;
+            //ddlTipoPreseleccionado.Items.FindByValue(id).Selected = true;
 
-			//opcion 2
-			ddlTipoPreseleccionado.SelectedIndex = ddlTipoPreseleccionado.Items.IndexOf(
+            //opcion 2
+            ddlTipoPreseleccionado.SelectedIndex = ddlTipoPreseleccionado.Items.IndexOf(
 			ddlTipoPreseleccionado.Items.FindByValue(id));
 		}
     }

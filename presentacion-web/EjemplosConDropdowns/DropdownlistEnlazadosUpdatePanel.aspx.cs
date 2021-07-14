@@ -40,12 +40,12 @@ namespace presentacion_web.Dropdowns
 
         protected void ddlTipos_SelectedIndexChanged(object sender, EventArgs e)
         {
-            //if (IsPostBack)
-            //{
-            int id = int.Parse(ddlTipos.SelectedItem.Value);
-            ddlPokemonsFiltrados.DataSource = ((List<Pokemon>)Session["listaPokemon"]).FindAll(x => x.Tipo.Id == id);
-            ddlPokemonsFiltrados.DataBind();
-            //}
+            if (IsPostBack)
+            {
+                int id = int.Parse(ddlTipos.SelectedItem.Value);
+                ddlPokemonsFiltrados.DataSource = ((List<Pokemon>)Session["listaPokemon"]).FindAll(x => x.Tipo.Id == id);
+                ddlPokemonsFiltrados.DataBind();
+            }
         }
     }
 }

@@ -13,8 +13,8 @@
         <ContentTemplate>
             <div class="mb-3 row">
                 <div class="col">
-                    <asp:TextBox runat="server" ID="txtUrlImagen" CssClass="form-control" />
-                        <%--AutoPostBack="true" OnTextChanged="txtUrlImagen_TextChanged" />--%>
+                    <asp:TextBox runat="server" ID="txtUrlImagen" CssClass="form-control"
+                        AutoPostBack="true" OnTextChanged="txtUrlImagen_TextChanged" />
                 </div>
                 <div class="col">
                     <asp:Button Text="Cargar" runat="server" ID="btnCargar" CssClass="btn btn-primary"

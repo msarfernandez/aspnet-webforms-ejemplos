@@ -23,11 +23,11 @@ namespace presentacion_web
 					List<Pokemon> listaPokemon = negocio.listarConSP();
 					Session["listaPokemon"] = listaPokemon;
 
-					//configuro desplegable desde db pero solo lo cargo
-					//ddlPokemonsFiltrados.DataSource = listaPokemon;
-					//ddlPokemonsFiltrados.DataBind();
+                    //configuro desplegable desde db pero solo lo cargo
+                    //ddlPokemonsFiltrados.DataSource = listaPokemon;
+                    //ddlPokemonsFiltrados.DataBind();
 
-					List<Tipo> listaTipos = negocioTipo.listar();
+                    List<Tipo> listaTipos = negocioTipo.listar();
 
 					//configuro desplegable desde db con id y desc
 					ddlTipos.DataSource = listaTipos;

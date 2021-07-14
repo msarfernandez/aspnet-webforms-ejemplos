@@ -7,7 +7,7 @@
     <div class="row">
         <div class="col">
             <h4>DropDownList Estático</h4>
-            <asp:DropDownList CssClass="btn btn-outline-dark dropdown-toggle" runat="server">
+            <asp:DropDownList CssClass="btn btn-outline-dark dropdown-toggle" ID="ddlColores" runat="server">
                 <asp:ListItem Text="Rojo" />
                 <asp:ListItem Text="Amarillo" />
                 <asp:ListItem Text="Azul" />
@@ -15,7 +15,8 @@
         </div>
         <div class="col">
             <h4>DropDownList Desde DB</h4>
-            <asp:DropDownList runat="server" ID="ddlPokemons" CssClass="btn btn-outline-dark dropdown-toggle"></asp:DropDownList>
+            <asp:DropDownList runat="server" ID="ddlPokemons" CssClass="btn btn-outline-dark dropdown-toggle">
+            </asp:DropDownList>
         </div>
     </div>
     <hr />

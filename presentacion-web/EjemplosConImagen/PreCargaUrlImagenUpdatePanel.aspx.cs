@@ -20,9 +20,9 @@ namespace presentacion_web.EjemplosConImagen
             urlImagen = txtUrlImagen.Text;
         }
 
-        //protected void txtUrlImagen_TextChanged(object sender, EventArgs e)
-        //{
-        //    urlImagen = txtUrlImagen.Text;
-        //}
+        protected void txtUrlImagen_TextChanged(object sender, EventArgs e)
+        {
+            urlImagen = txtUrlImagen.Text;
+        }
     }
 }

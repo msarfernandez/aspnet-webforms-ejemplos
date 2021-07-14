@@ -74,6 +74,7 @@
     <Content Include="EjemplosConDropdowns\DropdownsEjemplos.aspx" />
     <Content Include="EjemplosConDropdowns\UpdatePanel.aspx" />
     <Content Include="EjemplosConImagen\PreCargaUrlImagenUpdatePanel.aspx" />
+    <Content Include="EjemplosEmail\EnvioEmail.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -118,6 +119,13 @@
     </Compile>
     <Compile Include="EjemplosConImagen\PreCargaUrlImagenUpdatePanel.aspx.designer.cs">
       <DependentUpon>PreCargaUrlImagenUpdatePanel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EjemplosEmail\EnvioEmail.aspx.cs">
+      <DependentUpon>EnvioEmail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EjemplosEmail\EnvioEmail.aspx.designer.cs">
+      <DependentUpon>EnvioEmail.aspx</DependentUpon>
     </Compile>
     <Compile Include="MasterPage.Master.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
