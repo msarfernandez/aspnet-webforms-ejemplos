@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="db-script.txt" />
+    <Content Include="table-usuarios.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

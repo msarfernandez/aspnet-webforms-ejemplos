@@ -75,6 +75,11 @@
     <Content Include="EjemplosConDropdowns\UpdatePanel.aspx" />
     <Content Include="EjemplosConImagen\PreCargaUrlImagenUpdatePanel.aspx" />
     <Content Include="EjemplosEmail\EnvioEmail.aspx" />
+    <Content Include="EjemplosLogin\MenuLogin1Ejemplo.aspx" />
+    <Content Include="EjemplosLogin\Pagina1Login.aspx" />
+    <Content Include="EjemplosLogin\Pagina2LoginAdmin.aspx" />
+    <Content Include="EjemplosLogin\Login1Ejemplo.aspx" />
+    <Content Include="Error.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -126,6 +131,41 @@
     </Compile>
     <Compile Include="EjemplosEmail\EnvioEmail.aspx.designer.cs">
       <DependentUpon>EnvioEmail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EjemplosLogin\MenuLogin1Ejemplo.aspx.cs">
+      <DependentUpon>MenuLogin1Ejemplo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EjemplosLogin\MenuLogin1Ejemplo.aspx.designer.cs">
+      <DependentUpon>MenuLogin1Ejemplo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EjemplosLogin\Pagina1Login.aspx.cs">
+      <DependentUpon>Pagina1Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EjemplosLogin\Pagina1Login.aspx.designer.cs">
+      <DependentUpon>Pagina1Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EjemplosLogin\Pagina2LoginAdmin.aspx.cs">
+      <DependentUpon>Pagina2LoginAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EjemplosLogin\Pagina2LoginAdmin.aspx.designer.cs">
+      <DependentUpon>Pagina2LoginAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EjemplosLogin\Login1Ejemplo.aspx.cs">
+      <DependentUpon>Login1Ejemplo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EjemplosLogin\Login1Ejemplo.aspx.designer.cs">
+      <DependentUpon>Login1Ejemplo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
     </Compile>
     <Compile Include="MasterPage.Master.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>

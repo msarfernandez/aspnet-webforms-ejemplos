@@ -45,6 +45,7 @@
     <Compile Include="PokemonNegocio.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TipoNegocio.cs" />
+    <Compile Include="UsuarioNegocio.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\acceso-datos\acceso-datos.csproj">

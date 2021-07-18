@@ -1,0 +1,16 @@
+﻿CREATE TABLE [dbo].[USUARIOS](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Usuario] [varchar](50) NULL,
+	[Pass] [varchar](50) NULL,
+	[TipoUser] [int] NULL,
+ CONSTRAINT [PK_USUARIOS] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+insert into USUARIOS Values ('test', 'test', 1)
+insert into USUARIOS Values ('admin', 'admin', 2)
+
+go
